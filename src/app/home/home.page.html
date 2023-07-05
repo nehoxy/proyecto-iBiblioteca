@@ -1,0 +1,38 @@
+<ion-header class="ion-text-center">
+  <ion-toolbar  color="tertiary">
+    <ion-title>Inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Bienvenido a iBiblioteca!</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, dolorum esse eligendi cumque expedita itaque.
+      </ion-card-content>
+      <ion-button [routerLink]="['/ibiblioteca']" color="tertiary" expand="full">Acceso a iBiblioteca</ion-button>
+    </ion-card>   
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Informacion sobre el autor</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+        Aplicación desarrollada por Ahumada Hugo
+      </ion-card-content>
+      <ion-button [routerLink]="['/autor']" color="tertiary" expand="full">Consultar informacion</ion-button>
+    </ion-card>
+
+  </div>
+</ion-content>

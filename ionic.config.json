@@ -1,0 +1,7 @@
+{
+  "name": "proyecto-iBiblioteca-hugo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
